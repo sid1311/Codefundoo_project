@@ -42,10 +42,26 @@ model = tf.keras.Sequential([
     tf.keras.layers.Dense(3, activation=tf.nn.softmax)  # since no of classifications = 3
 
 ])
+full_deep_model = tf.keras.Sequential([
+    tf.keras.layers.Dense(128, activation= tf.nn.relu),
+    tf.keras.layers.Dense(128, activation= tf.nn.relu),
+    tf.keras.layers.Dense(128, activation= tf.nn.relu),
+    tf.keras.layers.Dense(128, activation= tf.nn.relu),
+    tf.keras.layers.Dense(128, activation= tf.nn.relu),
+    tf.keras.layers.Dense(128, activation= tf.nn.relu),
+    tf.keras.layers.Dense(128, activation= tf.nn.relu),
+    tf.keras.layers.Dense(128, activation= tf.nn.relu),
+    tf.keras.layers.Dense(128, activation= tf.nn.relu),
+    tf.keras.layers.Dense(128, activation= tf.nn.relu),
+    tf.keras.layers.Dense(3, activation=tf.nn.softmax)  # since no of classifications = 3
 
+])
 #DECIDING LOSS FUNCTIONS AND OPTIMIZATION ALGORITHM
 
 model.compile(optimizer=tf.train.AdamOptimizer(), loss='sparse_categorical_crossentropy', metrics=['accuracy']) #TODO: CHECK IF BETTER LOSS FUNCTION EXISTS
+
+#full_deep_model.compile(optimizer=tf.train.AdamOptimizer(), loss='sparse_categorical_crossentropy', metrics=['accuracy'])
+
 
 #FITTING ON TRAINING DATA
 

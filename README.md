@@ -4,7 +4,7 @@ In rural India, and even in urban areas, people are unaware of the upcoming disa
 
 It is a scientific **impossiblity** to **predict** earthquakes. In the words of USGS: 
 >Can you predict earthquakes?
->No. Neither the USGS nor any other scientists have ever predicted a major earthquake. We do not know how, and we do not expect to know >how any time in the foreseeable future.
+>No. Neither the USGS nor any other scientists have ever predicted a major earthquake. We do not know how, and we do not expect to know how any time in the foreseeable future.
 
 That is why we propose an algorithm, that can scrape data from all sorts of government websites, media, from facebook to news websites, and apply geostatistical analysis along sentiment analysis of the public sentiment to rate the imminence of the danger according to the location of the deployment of our program. We further plan to use this sentiment, along with other geo-statistical data (like the distance of the epicentre of the quake or focal point of the flood from the place our algorithm is calculating from), fed into a neural network in a multiclass classifer that predicts the threat levels ('Negligible', 'Mild', 'Serious) and notfies the user that it may hit soon (display the expected collision time, etc). This algorithm can then be used together with a hardwired circuit to produce actual sirens and alarms where it might be necessary (like homes, and schools, or other public places). If it is engineered right, we believe it can save many lives.
 

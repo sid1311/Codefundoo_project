@@ -1,5 +1,6 @@
 # Codefundoo_Project : Alarming System Model For Earthquake Damage Prevention 
-
+## TEAM                   THE BLACK PEARL 
+###                       Captain Kumar Harsh, First Mate Siddharth Singh Chauhan
 In rural India, and even in urban areas, people are unaware of the upcoming disasters. Suppossing a family sleeps at ten in the night, and at twelve, an earthquakre hits in a nearby state and it is coming for them, how are they to know? Surely, nobody sleeps with the news on, and we doubt that would help. Also, most people that are affected in such natural disasters are often uninformed, for the news is always covering the events that led to the disaster and the aftermath and not where it might hit next. Regarding this practical concern, the affected population has hardly any prior information. Not to mention the people who drive. Most prefer to play their own songs than the radio. Who knows if they are driving straight into their oblivion?
 
 It is a scientific **impossiblity** to **predict** earthquakes. In the words of USGS: 
